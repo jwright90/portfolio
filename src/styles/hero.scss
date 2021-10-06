@@ -1,0 +1,29 @@
+#hero {
+  height: calc(100vh - 100px);
+}
+
+#hero h1 {
+  font-family: 'Bitter';
+  font-weight: 800;
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+#hero h3 {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+#hero h4 {
+  font-family: 'Open Sans';
+  font-weight: 200;
+  font-size: 1.3rem;
+  color: rgba(240,240,240,1);
+}
+
+.hero-left-section {
+  height: 60vh;
+  margin-top: -50px;
+}

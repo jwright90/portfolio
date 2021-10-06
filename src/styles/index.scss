@@ -1,0 +1,39 @@
+// Bootstrap overrides
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+$primary: #273557;
+$secondary: #586586;
+$success: #79AA7E;
+$body-bg: $primary;
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: $secondary;
+}
+::-moz-selection {
+  background: $secondary;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+
+.btn-success {
+  margin-top: 35px;
+  color: #fff !important;
+  padding: 20px 80px !important;
+}
+
+// Component Styles
+@import './navigation.scss';
+@import './hero.scss';
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
