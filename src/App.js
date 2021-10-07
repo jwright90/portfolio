@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navigation from './components/Navigation'
 import Hero from './components/Hero';
+import About from './components/About/About';
 
 const App = () => {
   return (
@@ -11,8 +12,11 @@ const App = () => {
       <>
         <Navigation />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Hero />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
         </Switch>
       </>

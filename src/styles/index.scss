@@ -21,7 +21,15 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #fff !important;
   min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Bitter';
+  font-weight: 800;
+  font-size: 5rem !important;
+  line-height: 7rem;
 }
 
 .btn-success {
@@ -33,6 +41,7 @@ html, body {
 // Component Styles
 @import './navigation.scss';
 @import './hero.scss';
+@import './about.scss';
 
 // Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Container, Button } from 'react-bootstrap';
+import {Link} from 'react-router-dom'
+
 
 const Hero = () => {
   return (
@@ -13,7 +15,11 @@ const Hero = () => {
               <h4>React, Typescript &amp; NodeJS</h4>
             </div>
             <div className="hero-btn">
-              <Button variant="success" size="lg">View My Projects</Button>
+              <Link to="/work">
+                <Button variant="success" size="lg">
+                  View My Projects              
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
