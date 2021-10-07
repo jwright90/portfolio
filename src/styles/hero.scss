@@ -1,5 +1,6 @@
 #hero {
   height: calc(100vh - 100px);
+  max-height: 700px;
 }
 
 #hero h1 {
@@ -25,5 +26,6 @@
 
 .hero-left-section {
   height: 60vh;
+  max-height: 400px;
   margin-top: -50px;
 }
