@@ -1,8 +1,22 @@
 #navbar {
-  height: 100px;
+	height: 100px;
 }
 
 #navbar a {
-  padding-right: 50px;
-  cursor: hover;
+	padding-right: 50px;
+	cursor: hover;
+}
+
+@media only screen and (min-width: 992px) {
+	#navbar .container {
+		justify-content: flex-start;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	#navbar .container {
+		justify-content: center;
+		align-items: center;
+	}
 }

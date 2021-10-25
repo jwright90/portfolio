@@ -3,8 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // https://www.youtube.com/watch?v=aZGzwEjZrXc&ab_channel=TheNetNinja
 
 import Navigation from './components/Navigation'
-import Hero from './components/Hero';
-import About from './components/About/About';
+import LandingPage from './pages/LandingPage';
+import AboutPage from './pages/AboutPage';
+import ProjectsPage from './pages/ProjectsPage';
+import ContactPage from './pages/ContactPage';
 
 const App = () => {
   return (
@@ -13,10 +15,16 @@ const App = () => {
         <Navigation />
         <Switch>
           <Route exact path="/">
-            <Hero />
+            <LandingPage />
           </Route>
           <Route path="/about">
-            <About />
+            <AboutPage />
+          </Route>
+          <Route path="/projects">
+            <ProjectsPage />
+          </Route>
+          <Route path="/contact">
+            <ContactPage />
           </Route>
         </Switch>
       </>

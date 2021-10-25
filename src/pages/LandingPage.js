@@ -3,7 +3,7 @@ import { Container, Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom'
 
 
-const Hero = () => {
+const LandingPage = () => {
   return (
     <Container>
       <section className="text-light d-flex align-items-center" id="hero">
@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="hero-text">
               <h1>Jason Wright</h1>
               <h3>Front End Developer</h3>
-              <h4>React, Typescript &amp; NodeJS</h4>
+              <h4>Specialising in React &amp; Next.js</h4>
             </div>
             <div className="hero-btn">
               <Link to="/work">
@@ -28,4 +28,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default LandingPage

@@ -1,64 +1,128 @@
-$green: #79AA7E;
-
-.chessSVG {
-  background: url('../assets/strategy.svg') no-repeat left center;
-  background-size: contain;
-  height: 300px;
-  filter: invert(100%);
-  margin-right: 50px;
-  margin-bottom: 100px;
-}
-
-.mathSVG {
-  background: url('../assets/math.svg') no-repeat center center;
-  background-size: contain;
-  height: 300px;
-  filter: invert(100%);
-  margin-left: 50px;
-  margin-bottom: 100px;
-}
-
-.pokerSVG {
-  background: url('../assets/poker.svg') no-repeat left center;
-  background-size: contain;
-  height: 300px;
-  filter: invert(100%);
-  margin-right: 50px;
-  margin-bottom: 100px;
-}
-
-.accountingSVG {
-  background: url('../assets/accounting.svg') no-repeat center center;
-  background-size: contain;
-  height: 300px;
-  filter: invert(100%);
-  margin-left: 50px;
-  margin-bottom: 100px;
-}
-
-.codingSVG {
-  background: url('../assets/data.svg') no-repeat left center;
-  background-size: contain;
-  height: 300px;
-  filter: invert(100%);
-  margin-left: 50px;
-  margin-bottom: 100px;
-}
-
-.futureSVG {
-  background: url('../assets/rocket.png') no-repeat center center;
-  background-size: contain;
-  height: 300px;
-  filter: invert(100%);
-  margin-left: 50px;
-  margin-bottom: 100px;
-}
+$green: #79aa7e;
 
 .about-desc {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .about-year {
-  font-size: 4rem;
-  color: $green;
+	font-size: 4rem;
+	color: $green;
+}
+
+@media only screen and (min-width: 992px) {
+	.chessSVG {
+		background: url('../assets/strategy.svg') no-repeat left center;
+		background-size: contain;
+		height: 300px;
+		filter: invert(100%);
+		margin-right: 50px;
+		margin-bottom: 100px;
+	}
+
+	.mathSVG {
+		background: url('../assets/math.svg') no-repeat center center;
+		background-size: contain;
+		height: 300px;
+		filter: invert(100%);
+		margin-left: 50px;
+		margin-bottom: 100px;
+	}
+
+	.pokerSVG {
+		background: url('../assets/poker.svg') no-repeat left center;
+		background-size: contain;
+		height: 300px;
+		filter: invert(100%);
+		margin-right: 50px;
+		margin-bottom: 100px;
+	}
+
+	.accountingSVG {
+		background: url('../assets/accounting.svg') no-repeat center center;
+		background-size: contain;
+		height: 300px;
+		filter: invert(100%);
+		margin-left: 50px;
+		margin-bottom: 100px;
+	}
+
+	.codingSVG {
+		background: url('../assets/data.svg') no-repeat left center;
+		background-size: contain;
+		height: 300px;
+		filter: invert(100%);
+		margin-left: 50px;
+		margin-bottom: 100px;
+	}
+
+	.futureSVG {
+		background: url('../assets/rocket.png') no-repeat center center;
+		background-size: contain;
+		height: 300px;
+		filter: invert(100%);
+		margin-left: 50px;
+		margin-bottom: 100px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	* {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-year {
+		font-size: 4rem;
+		color: $green;
+		margin-bottom: 20px;
+	}
+
+	.chessSVG {
+		background: url('../assets/strategy.svg') no-repeat center center;
+		background-size: contain;
+		height: 225px;
+		filter: invert(100%);
+		margin-bottom: 60px;
+	}
+
+	.mathSVG {
+		background: url('../assets/math.svg') no-repeat center center;
+		background-size: contain;
+		height: 225px;
+		filter: invert(100%);
+		margin-bottom: 60px;
+	}
+
+	.pokerSVG {
+		background: url('../assets/poker.svg') no-repeat center center;
+		background-size: contain;
+		height: 225px;
+		filter: invert(100%);
+		margin-bottom: 60px;
+	}
+
+	.accountingSVG {
+		background: url('../assets/accounting.svg') no-repeat center center;
+		background-size: contain;
+		height: 225px;
+		filter: invert(100%);
+		margin-bottom: 60px;
+	}
+
+	.codingSVG {
+		background: url('../assets/data.svg') no-repeat center center;
+		background-size: contain;
+		height: 225px;
+		filter: invert(100%);
+		margin-bottom: 60px;
+	}
+
+	.futureSVG {
+		background: url('../assets/rocket.png') no-repeat center center;
+		background-size: contain;
+		height: 225px;
+		filter: invert(100%);
+		margin-bottom: 60px;
+	}
 }

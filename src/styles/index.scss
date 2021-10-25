@@ -3,45 +3,47 @@
 
 $primary: #273557;
 $secondary: #586586;
-$success: #79AA7E;
+$success: #79aa7e;
 $body-bg: $primary;
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 ::selection {
-  background: $secondary;
+	background: $secondary;
 }
 ::-moz-selection {
-  background: $secondary;
+	background: $secondary;
 }
 
-html, body {
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #fff !important;
-  min-height: 100vh;
+html,
+body {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff !important;
+	min-height: 100vh;
 }
 
 h1 {
-  font-family: 'Bitter';
-  font-weight: 800;
-  font-size: 5rem !important;
-  line-height: 7rem;
+	font-family: 'Bitter';
+	font-weight: 800;
+	font-size: 5rem !important;
+	line-height: 7rem;
 }
 
 .btn-success {
-  margin-top: 35px;
-  color: #fff !important;
-  padding: 20px 80px !important;
+	margin-top: 35px;
+	color: #fff !important;
+	padding: 20px 80px !important;
 }
 
 // Component Styles
 @import './navigation.scss';
 @import './hero.scss';
 @import './about.scss';
+@import './contact.scss';
 
 // Bootstrap
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
