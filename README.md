@@ -1,5 +1,9 @@
 # Jason Wright
+
 ## Personal Portfolio
 
-### 6th Oct 2021
-* Personal portfolio to showcase my React skills.
+### Features to add
+
+### 6th Nov 2021
+
+- Loading screen, mainly for about / projects sections to wait until images fully loaded

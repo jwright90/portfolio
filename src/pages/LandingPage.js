@@ -15,7 +15,7 @@ const LandingPage = () => {
               <h4>Specialising in React &amp; Next.js</h4>
             </div>
             <div className="hero-btn">
-              <Link to="/work">
+              <Link to="/projects">
                 <Button variant="success" size="lg">
                   View My Projects              
                 </Button>

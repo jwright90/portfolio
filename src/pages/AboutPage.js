@@ -24,10 +24,10 @@ const AboutPage = () => {
         It was time to find a 9-5. Zero work experience on my CV didn't help. I started off by volunteering at a local charity in the accounts department. From there I gained experience and eventually decided I may as well get my "piece of paper". I started training to become a CIMA qualified management accountant in 2017 and qualified in 2021.
       </AboutSection>
       <AboutSection svgStyle="codingSVG"  year="2013 - 2021" style={svgStyle}>
-        If you take a peek at my Github profile, you'll see that I signed up in 2013. Back in those days I was still learning HTML &amp; CSS, whilst following Ruby on Rails zombie app tutorials on Code Academy. I dabbled around, coding on and off over the years. It's now 2021 and I've decided to take coding more seriously. In September I committed to making at least one Github commit every day for a year. 
+        If you take a peek at my Github profile, you'll see that I signed up in 2013. Back then I was following Ruby on Rails zombie app tutorials on Code Academy. I dabbled around, coding on and off over the years. It's now 2021 and I've decided to take coding more seriously. 
       </AboutSection>
       <AboutSection svgStyle="futureSVG" rowStyle="flex-row-reverse" year="Future Me" style={svgStyle}>
-        Right now I'm working on my React skills. I do enjoy working with databases and in the future I'd like to work on more backend projects. I particularly like Strapi at the moment. I enjoy UI/UX design so I may specialise in this a bit further as well.
+        At the moment I'm focusing on developing my front end skills using React. My ultimate goal is to be a full stack developer. I've been using Strapi as a headless CMS recently.
       </AboutSection>
     </Container>
   )

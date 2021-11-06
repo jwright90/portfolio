@@ -1,0 +1,66 @@
+$green: #79aa7e;
+
+.project-text {
+	font-size: 1.1rem;
+}
+
+.project-badge {
+	margin: 0 8px;
+}
+
+.project-link {
+	text-decoration: none;
+	color: $green;
+	font-weight: 500;
+	margin-right: 10px;
+}
+
+.project-github {
+	color: #e3e3e3;
+	margin: 0 5px 5px 10px;
+}
+
+.project-github:hover {
+	color: #fff;
+}
+
+.project-link:hover {
+	color: $green;
+	text-decoration: underline;
+}
+
+.project-heading {
+	font-size: 2.1rem;
+}
+
+.project-links-box {
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin-top: 15px;
+}
+
+.project-img {
+	height: 350px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
+
+.movies-app-img {
+	background: url('../assets/movies-app.png') no-repeat left/cover;
+}
+
+@media only screen and (min-width: 992px) {
+	.project-img {
+		height: 450px;
+	}
+
+	.project-links-box {
+		justify-content: start;
+	}
+}
