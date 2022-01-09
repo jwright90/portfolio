@@ -26,11 +26,12 @@ const LandingPage = () => {
                     Projects              
                   </Button>
                 </Link>
-                <Link to="/projects">
-                  <Button className="btn-landing" variant="secondary"  size="md">
+                  <Button
+                    href="https://docs.google.com/document/d/1Qz_cuHUk2XZPlo54GyREIULkyY99Izy0iD2OYUBX9To/edit?usp=sharing"
+                    target="_blank"
+                    className="btn-landing" variant="secondary" size="md">
                     CV              
                   </Button>
-                </Link>
               </div>
             </div>
 

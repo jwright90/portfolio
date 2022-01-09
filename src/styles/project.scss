@@ -12,11 +12,20 @@ $green: #79aa7e;
 .btn-secondary.btn-project {
 	display: flex;
 	align-items: center;
+	height: 40px;
 }
 
 .project-text {
 	font-size: 0.9rem;
 	font-weight: 300;
+}
+
+.attribution-text {
+	color: #e3e3e3;
+}
+
+.attribution-text:hover {
+	color: white;
 }
 
 .project-badge {
@@ -36,7 +45,7 @@ $green: #79aa7e;
 }
 
 .project-github:hover {
-	color: #fff;
+	color: #e3e3e3;
 }
 
 .project-link:hover {
@@ -68,7 +77,25 @@ $green: #79aa7e;
 }
 
 .movies-app-img {
-	background: url('../assets/movies-app.png') no-repeat left/cover;
+	background: url('../assets/movie-booking-thumb.png') no-repeat left/cover;
+}
+
+.physiocareer-material-img {
+	background: url('../assets/physiocareer-material-thumb.png') no-repeat
+		left/cover;
+}
+
+.physiocareer-nextjs-img {
+	background: url('../assets/physiocareer-nextjs-thumb.png') no-repeat
+		left/cover;
+}
+
+.kritiyoga-img {
+	background: url('../assets/kriti-yoga-thumb.png') no-repeat left/cover;
+}
+
+.rftb-gh-img {
+	background: url('../assets/github-finder-thumb.png') no-repeat left/cover;
 }
 
 .project-badges {
@@ -78,6 +105,17 @@ $green: #79aa7e;
 @media only screen and (min-width: 1200px) {
 	.project-links-box {
 		justify-content: start;
+	}
+
+	.project-content {
+		flex-grow: 1;
+		margin-bottom: 20px;
+		position: relative;
+	}
+
+	.project-footer {
+		position: absolute;
+		bottom: 20px;
 	}
 }
 

@@ -1,6 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// Router Tutorial
-// https://www.youtube.com/watch?v=aZGzwEjZrXc&ab_channel=TheNetNinja
 
 import Navigation from './components/Navigation'
 import LandingPage from './pages/LandingPage';
