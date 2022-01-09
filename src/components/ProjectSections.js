@@ -1,5 +1,5 @@
 import React from 'react'
-import { Badge, Col, Row } from 'react-bootstrap';
+import { Badge, Button, Container, Col, Row } from 'react-bootstrap';
 import { Github } from 'react-bootstrap-icons';
 import '../styles/project.scss'
 import '../styles/index.scss'
@@ -21,22 +21,25 @@ const ProjectSections = () => {
   return (
     projects.map(project => (
       <div key={project.title}>
-        <Row className={"align-items-center"}>
-          <Col lg={12}><h3 className="project-heading">{project.title}</h3></Col>
-          <Col lg={12}>
-            <div className="project-links-box">
-              <a href={project.url} className="project-link">View Live Project</a>
+        <Container>
+        <Row className={"project"}>
+          <Col xl={4} className={"project-img " + project.imgStyle}></Col>
+          <Col xl={6} className="project-content">
+            <h3 className="project-heading">{project.title}</h3>
+            <p className="project-text mb-3">{project.description}</p>
+            <div className="project-badges">
               {project.tags.map(tag => <Badge pill bg="secondary" className="project-badge" key={tag}>{tag}</Badge>)}
-              <a href={project.github} className="project-github"><Github size={28}/></a>
+            </div>
+            <div className="project-buttons">
+              <Button href={project.url} className="btn-project" variant="success" size="md">Live Project</Button>
+              <Button href={project.github} className="btn-project" variant="secondary" size="md">
+                Code
+                <a href={project.github} className="project-github"><Github size={22}/></a>
+              </Button>
             </div>
           </Col>
-        </Row>
-        <Row className={"align-items-center justify-content-left mx-1" } >
-          <Col lg={9} className={"mt-4 project-img " + project.imgStyle }></Col>
-          <Col lg={9} >
-            <Row className="project-text mb-5">{project.description}</Row>
-          </Col>
-        </Row>
+          </Row>
+          </Container>
       </div>
     ))
   )

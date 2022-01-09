@@ -1,11 +1,26 @@
 $green: #79aa7e;
 
+.project {
+	gap: 80px;
+}
+
+.project-buttons {
+	display: flex;
+	gap: 16px;
+}
+
+.btn-secondary.btn-project {
+	display: flex;
+	align-items: center;
+}
+
 .project-text {
-	font-size: 1.1rem;
+	font-size: 0.9rem;
+	font-weight: 300;
 }
 
 .project-badge {
-	margin: 0 8px;
+	margin-right: 16px;
 }
 
 .project-link {
@@ -45,7 +60,8 @@ $green: #79aa7e;
 }
 
 .project-img {
-	height: 350px;
+	height: 300px;
+	max-width: 500px;
 	margin-bottom: 30px;
 	border-radius: 10px;
 	border: 1px solid #fff;
@@ -55,12 +71,38 @@ $green: #79aa7e;
 	background: url('../assets/movies-app.png') no-repeat left/cover;
 }
 
-@media only screen and (min-width: 992px) {
-	.project-img {
-		height: 450px;
-	}
+.project-badges {
+	margin-bottom: 16px;
+}
 
+@media only screen and (min-width: 1200px) {
 	.project-links-box {
 		justify-content: start;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.project {
+		gap: 40px;
+	}
+
+	.project-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.project-text {
+		max-width: 500px;
+	}
+
+	.project-img {
+		margin-bottom: 0px;
+	}
+
+	.project-badges {
+		margin-bottom: 0px;
 	}
 }

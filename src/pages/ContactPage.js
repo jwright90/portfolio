@@ -9,35 +9,35 @@ const ContactPage = () => {
 
       <Form className="mb-5">
         <Row>
-          <Col lg={6}>
+          <Col md={7}>
             <Form.Group className="mb-3" controlId="contactForm">
               <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Name" className="mb-2" />
+              <Form.Control type="text" placeholder="Name" className="mb-2 contact-text" />
             </Form.Group>
           </Col>
         </Row>
 
         <Row>
-          <Col lg={6}>
+          <Col md={7}>
             <Form.Group className="mb-3" controlId="contactForm">
               <Form.Label>Company</Form.Label>
-              <Form.Control type="text" placeholder="Company" className="mb-2" />
+              <Form.Control type="text" placeholder="Company" className="mb-2 contact-text" />
             </Form.Group>
           </Col>
         </Row>
 
         <Row>
-          <Col lg={6}>
+          <Col md={7}>
             <Form.Group className="mb-3" controlId="contactFormMessage">
               <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows={4} placeholder="Your message" />
+              <Form.Control as="textarea" rows={4} placeholder="Your message" className="contact-text"/>
             </Form.Group>
           </Col>
         </Row>
 
         <Row>
-          <Col lg={6}>
-          <Button variant="success" type="submit" style={{width: "100%" }}>
+          <Col md={7}>
+          <Button variant="success" type="submit" style={{width: "100%", height: '60px', marginTop: '12px' }}>
             Send Message
           </Button>
           </Col>

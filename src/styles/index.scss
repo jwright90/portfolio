@@ -1,5 +1,5 @@
 // Bootstrap overrides
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 $primary: #273557;
 $secondary: #586586;
@@ -28,7 +28,7 @@ body {
 
 h1 {
 	font-family: 'Bitter';
-	font-weight: 800;
+	font-weight: 800 !important;
 	font-size: 5rem !important;
 	line-height: 7rem;
 }
@@ -37,10 +37,34 @@ p {
 	margin: 0 !important;
 }
 
-.btn-success {
+.btn-success.btn-landing,
+.btn-secondary.btn-landing {
 	margin-top: 35px;
-	color: #fff !important;
 	padding: 20px 80px !important;
+	min-width: 200px;
+	font-size: 1.1rem !important;
+	font-weight: 400 !important;
+}
+
+.btn-success {
+	color: #fff !important;
+}
+
+@media only screen and (max-width: 1200px) {
+	h1 {
+		font-size: 64px !important;
+	}
+
+	.btn-success,
+	.btn-secondary {
+		margin-top: 35px;
+		padding: 15px 70px !important;
+		min-width: 180px;
+	}
+
+	.btn-success {
+		margin-right: 15px;
+	}
 }
 
 .description {
