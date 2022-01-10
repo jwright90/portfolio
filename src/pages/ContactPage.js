@@ -5,7 +5,7 @@ const ContactPage = () => {
 
   return (
     <Container className="p-4">
-      <h1 className="my-4">Contact</h1>
+      <h1 className="my-4 hero-title">Contact</h1>
 
       <Form className="mb-5">
         <Row>

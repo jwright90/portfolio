@@ -6,7 +6,7 @@ const ProjectsPage = () => {
 
   return (
     <Container className="p-4">
-      <h1 className="mt-3 mb-5">Projects</h1>
+      <h1 className="mt-3 mb-5 hero-title">Projects</h1>
       <ProjectSections />
     </Container>
   )

@@ -68,7 +68,7 @@ const ProjectSections = () => {
               
             <div className="project-footer">
               <div className="project-badges">
-                {project.tags.map(tag => <Badge pill bg="secondary" className="project-badge" key={tag}>{tag}</Badge>)}
+                {project.tags.map(tag => <Badge pill bg="secondary" className="project-badge mt-3" key={tag}>{tag}</Badge>)}
               </div>
               <div className="project-buttons">
                 <Button href={project.url} target="_blank" className="btn-project" variant="success" size="md">Live Project</Button>

@@ -10,7 +10,7 @@ const AboutPage = () => {
 
   return (
     <Container className="p-4">
-      <h1 className="my-4">About Me</h1>
+      <h1 className="my-4 hero-title">About Me</h1>
       <AboutSection svgStyle="chessSVG" year="1995 - 2005" style={svgStyle}>
         I’ve always loved solving problems and thinking "outside of the box". Growing up, I played chess for England.
       </AboutSection>

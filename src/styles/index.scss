@@ -1,5 +1,5 @@
 // Bootstrap overrides
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 $primary: #273557;
 $secondary: #586586;
@@ -52,7 +52,7 @@ h1.hero-title {
 }
 
 @media only screen and (max-width: 1200px) {
-	h1 {
+	h1.hero-title {
 		font-size: 64px;
 	}
 
@@ -69,17 +69,19 @@ h1.hero-title {
 }
 
 @media only screen and (max-width: 500px) {
-	* {
-		margin: 0;
-		padding: 0;
-	}
-
 	.hero-text {
-		padding: 0 10%;
+		padding: 0 5px;
 	}
 
 	h1.hero-title {
 		font-size: 3rem;
+		font-weight: 700 !important;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	h1.hero-title {
+		font-size: 2.5rem;
 	}
 }
 

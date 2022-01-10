@@ -32,5 +32,11 @@
 
 	#navbar-responsive {
 		display: inline-block;
+		width: 100%;
+	}
+
+	#navbar-responsive .container {
+		justify-content: flex-end;
+		align-items: center;
 	}
 }
