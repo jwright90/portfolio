@@ -125,6 +125,28 @@ $green: #79aa7e;
 		gap: 40px;
 	}
 
+	.project-buttons {
+		flex-direction: column;
+		justify-content: center;
+		gap: 24px;
+	}
+
+	.btn-secondary.btn-project {
+		margin: 0;
+		min-width: 300px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.btn-success.btn-project {
+		margin: 30px 0 0;
+		min-width: 300px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+	}
+
 	.project-content {
 		display: flex;
 		flex-direction: column;
