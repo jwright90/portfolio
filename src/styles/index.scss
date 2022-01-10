@@ -19,6 +19,7 @@ $body-bg: $primary;
 
 html,
 body {
+	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -26,24 +27,24 @@ body {
 	min-height: 100vh;
 }
 
-h1 {
-	font-family: 'Bitter';
-	font-weight: 800 !important;
-	font-size: 5rem !important;
-	line-height: 7rem;
-}
-
 p {
 	margin: 0 !important;
 }
 
+h1.hero-title {
+	font-family: 'Bitter';
+	font-weight: 800;
+	font-size: 5rem;
+	line-height: 7rem;
+}
+
 .btn-success.btn-landing,
 .btn-secondary.btn-landing {
-	margin-top: 35px;
-	padding: 20px 80px !important;
-	min-width: 200px;
-	font-size: 1.1rem !important;
-	font-weight: 400 !important;
+	padding: 20px 80px;
+	min-width: 100%;
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-top: 25px;
 }
 
 .btn-success {
@@ -52,18 +53,33 @@ p {
 
 @media only screen and (max-width: 1200px) {
 	h1 {
-		font-size: 64px !important;
+		font-size: 64px;
 	}
 
 	.btn-success,
 	.btn-secondary {
 		margin-top: 35px;
-		padding: 15px 70px !important;
-		min-width: 180px;
+		padding: 15px 70px;
+		min-width: 200px;
 	}
 
 	.btn-success {
 		margin-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.hero-text {
+		padding: 0 10%;
+	}
+
+	h1.hero-title {
+		font-size: 3rem;
 	}
 }
 
