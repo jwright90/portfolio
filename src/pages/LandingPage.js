@@ -5,10 +5,10 @@ import coffee from '../assets/coffee.jpg';
 
 const LandingPage = () => {
   return (
-    <Container >
+    <Container>
       <Row className="hero-row">
         <Col xl={6}>
-        <section className="text-light d-flex align-items-center" id="hero">
+        <section className="text-light hero-text-container" id="hero">
           <div className="flex flex-row text-align-left p-3">
             <div className="hero-left-section d-flex flex-column justify-content-around">
               <div className="hero-text">
